@@ -1,0 +1,6 @@
+[submodule "external/pico-vfs"]
+	path = external/pico-vfs
+	url = https://github.com/cmolson/pico-vfs.git
+[submodule "external/PicoDVI"]
+	path = external/PicoDVI
+	url = https://github.com/DLehenbauer/PicoDVI.git
