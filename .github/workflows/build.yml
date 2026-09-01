@@ -32,7 +32,7 @@ jobs:
           cmake -B build -DPICO_SDK_PATH=$GITHUB_WORKSPACE/pico-sdk
           cmake --build build -j4
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: pico_sd_diag
           path: build/pico_sd_diag.uf2
